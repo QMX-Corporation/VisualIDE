@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ background-color: #1e1e1e; 
+ color: #ffffff; 
+ display: flex; 
+ flex-direction: column; 
+ justify-content: center; 
+ align-items: center; 
+ height: 100vh; 
+ font-family: sans-serif; 
+}
+
+h1 {
+  color: #569cd6;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+input {
+ width: 80%; 
+ max-width: 300px; 
+ margin: 8px 0; 
+ padding: 10px; 
+ background-color: #2d2d2d; 
+ border: 1px solid #3c3c3c; 
+ border-radius: 4px;
+}
+
+#loginBtn {
+ background-color: #0e639c; 
+ color: white;
+ border: none;
+ cursor: pointer; 
+ font-weight: bold;
+}
+
+#appIcon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+}
